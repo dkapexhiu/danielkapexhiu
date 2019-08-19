@@ -109,7 +109,7 @@ const Index = () => (
           >
           </ProjectCard>
           <ProjectCard
-            title="Math for Universe"
+            title="Daniel Blog"
             link="https://blog.danielkapexhiu.com/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             img={blog}
