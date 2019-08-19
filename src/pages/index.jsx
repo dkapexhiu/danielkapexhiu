@@ -25,7 +25,7 @@ import agsh from '../images/agsh.webp';
 import sanity from '../images/is.webp';
 import oxford from '../images/oxford.webp';
 import prodmanagement from '../images/product-management.webp';
-import godmath from '../images/math-universe.webp';
+import blog from '../images/logo.webp';
 import hoteligjuetise from '../images/hoteligjuetise.webp';
 
 
@@ -103,21 +103,21 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Products Management"
-            link="https://product-management-21.firebaseapp.com/"
+            link="https://pm.danielkapexhiu.com/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             img={prodmanagement}
           >
           </ProjectCard>
           <ProjectCard
             title="Math for Universe"
-            link="https://math-universe-92.firebaseapp.com/"
+            link="https://blog.danielkapexhiu.com/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-            img={godmath}
+            img={blog}
           >
           </ProjectCard>
           <ProjectCard
             title="Sanity.io Integrated Systems"
-            link="https://sanity-nextjs-landing-pages-web-iafd4qoy.netlify.com/"
+            link="https://sanity.danielkapexhiu.com"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             img={sanity}
           >
