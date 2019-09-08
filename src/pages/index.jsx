@@ -19,13 +19,13 @@ import Contact from '../views/Contact'
 
 // Images
 import me from '../images/me.webp';
-import melisa from '../images/melisa.webp';
+import faas from '../images/faas.webp';
 import hitweb from '../images/hitweb.webp';
 import agsh from '../images/agsh.webp';
 import sanity from '../images/is.webp';
 import oxford from '../images/oxford.webp';
 import prodmanagement from '../images/product-management.webp';
-import blog from '../images/logo.webp';
+import restaurant from '../images/restaurant.webp';
 import hoteligjuetise from '../images/hoteligjuetise.webp';
 
 
@@ -95,10 +95,10 @@ const Index = () => (
           >
           </ProjectCard>
           <ProjectCard
-            title="Villa Melisa"
-            link="https://www.siracusaholidayhome.it/"
+            title="FAAS"
+            link="http://faasarchitects.al/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-            img={melisa}
+            img={faas}
           >
           </ProjectCard>
           <ProjectCard
@@ -109,10 +109,10 @@ const Index = () => (
           >
           </ProjectCard>
           <ProjectCard
-            title="Daniel Blog"
-            link="https://blog.danielkapexhiu.com/"
+            title="Restaurant Reviews"
+            link="https://restaurant.danielkapexhiu.com/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-            img={blog}
+            img={restaurant}
           >
           </ProjectCard>
           <ProjectCard
