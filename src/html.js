@@ -13,18 +13,6 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-     <script
-        type="text/javascript"
-        src="'//cdn.foxpush.net/sdk/foxpush_SDK_min.js"
-     />,
-     <script
-     dangerouslySetInnerHTML={{
-        __html=`
-         var _foxpush = _foxpush || []; 
- 		     _foxpush.push(['_setDomain', 'danielkapexhiucom']);
-   	 `
-     }}
-     />,
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
