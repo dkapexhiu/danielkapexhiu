@@ -25,6 +25,11 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+      <script
+        key="abc"
+        type="text/javascript"
+        src="//cdn.sendpulse.com/js/push/602d9c416136e674d2ade3caa7bf03e8_1.js"
+      />
       </body>
     </html>
   )
