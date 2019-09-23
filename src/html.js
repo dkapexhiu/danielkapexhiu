@@ -13,6 +13,22 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
+     <script
+     dangerouslySetInnerHTML={{
+        __html=`
+	    (function(p,u,s,h){
+	        p._pcq=p._pcq||[];
+	        p._pcq.push(['_currentTime',Date.now()]);
+	        s=u.createElement('script');
+	        s.type='text/javascript';
+	        s.async=true;
+	        s.src='https://cdn.pushcrew.com/js/406ee00a82f3f85cfdf73c41ef318bea.js';
+	        h=u.getElementsByTagName('script')[0];
+	        h.parentNode.insertBefore(s,h);
+	    })(window,document);
+   	 `
+     }}
+     />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
