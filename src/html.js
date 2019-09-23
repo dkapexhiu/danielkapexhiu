@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
+
+const pushnotifications = require('../static/foxpush.js');
 
 export default function HTML(props) {
   return (
@@ -28,9 +29,7 @@ export default function HTML(props) {
         {props.postBodyComponents}
 <script
   dangerouslySetInnerHTML={{
-    __html: `
-
-        `,
+    __html:pushnotifications,
   }}
 />
       </body>
