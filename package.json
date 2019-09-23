@@ -27,7 +27,6 @@
     "tailwindcss": "^0.7.4",
     "typeface-cantata-one": "^0.0.72",
     "typeface-open-sans": "^0.0.75",
-    “helmet”: "^3.8.1"
   },
   "keywords": [
     "gatsby",
