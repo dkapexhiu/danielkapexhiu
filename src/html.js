@@ -28,16 +28,17 @@ export default function HTML(props) {
 		<script
 		  dangerouslySetInnerHTML={{
 		    __html: `
-				    (function(p,u,s,h){
-				        p._pcq=p._pcq||[];
-				        p._pcq.push(['_currentTime',Date.now()]);
-				        s=u.createElement('script');
-				        s.type='text/javascript';
-				        s.async=true;
-				        s.src='https://cdn.pushcrew.com/js/406ee00a82f3f85cfdf73c41ef318bea.js';
-				        h=u.getElementsByTagName('script')[0];
-				        h.parentNode.insertBefore(s,h);
-				    })(window,document);
+<script type="text/javascript" data-cfasync="false">
+ var _foxpush = _foxpush || [];
+ _foxpush.push(['_setDomain', 'danielkapexhiucom']);
+ (function(){
+     var foxscript = document.createElement('script');
+     foxscript.src = '//cdn.foxpush.net/sdk/foxpush_SDK_min.js';
+     foxscript.type = 'text/javascript';
+     foxscript.async = 'true';
+     var fox_s = document.getElementsByTagName('script')[0];
+     fox_s.parentNode.insertBefore(foxscript, fox_s);})();
+ </script>
 		        `,
 		  }}
 		/>
