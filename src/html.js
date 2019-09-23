@@ -36,6 +36,21 @@ export default function HTML(props) {
               }(document, "script"));`}
         </script>
         </Helmet>
+        <Helmet>
+            <script>
+            {`var comm_url = "https://request.pushalert.co/";
+            var default_title = "";
+            var default_message = "";
+            var default_icon = "https://cdn.pushalert.co/img/pushalert-square-icon.png";
+            var default_url = "https://danielkapexhiu.com";
+            var last_updated = "1569258062";
+            var client_id = 13188;
+            var domain_id = 1;
+            var pa_subdomain = "https://danielkapexhiu44.pushalert.co";
+            var appPublicKey = 'BGzLtJw5hJIVsffBAKjaxQSWSEbT28eWo3aT/lDcQHkXJFSKWn8ZVlejlxB1AxrBXLSHRmOSUn4n8/HAiQhBFC0=';
+            importScripts("https://cdn.pushalert.co/sw-external.js?t="+last_updated);`}
+            </script>
+        </Helmet>
       </body>
     </html>
   )
