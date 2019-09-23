@@ -40,4 +40,5 @@
  ],
  "start_url": "/",
  "display": "standalone",
+ "gcm_sender_id": "539876079581"
 }
