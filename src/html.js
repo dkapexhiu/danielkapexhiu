@@ -28,7 +28,7 @@ export default function HTML(props) {
 		<script
 		  dangerouslySetInnerHTML={{
 		    __html: `
-<script type="text/javascript" data-cfasync="false">
+
  var _foxpush = _foxpush || [];
  _foxpush.push(['_setDomain', 'danielkapexhiucom']);
  (function(){
@@ -38,7 +38,7 @@ export default function HTML(props) {
      foxscript.async = 'true';
      var fox_s = document.getElementsByTagName('script')[0];
      fox_s.parentNode.insertBefore(foxscript, fox_s);})();
- </script>
+
 		        `,
 		  }}
 		/>
