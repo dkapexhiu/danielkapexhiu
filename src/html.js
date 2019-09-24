@@ -26,21 +26,20 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-    <Helmet>
-    <script>
-		{` 
-		 var _foxpush = _foxpush || []; 
-		 _foxpush.push(['_setDomain', 'danielkapexhiucom']); 
-		 (function(){ 
-		 var foxscript = document.createElement('script'); 
-		 foxscript.src = '//cdn.foxpush.net/sdk/foxpush_SDK_min.js'; 
-		 foxscript.type = 'text/javascript'; 
-		 foxscript.async = 'true'; 
-		 var fox_s = document.getElementsByTagName('script')[0]; 
-		 fox_s.parentNode.insertBefore(foxscript, fox_s);})(); 
-		 `}
-    </script>
-</Helmet>
+	    <Helmet>
+		<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+		<script>
+		  var OneSignal = window.OneSignal || [];
+		  OneSignal.push(function() {
+		    OneSignal.init({
+		      appId: "ba2d8c27-2734-4ea0-a307-a0b139094493",
+		      notifyButton: {
+			enable: true,
+		      },
+		    });
+		  });
+		</script>
+	    </Helmet>
       </body>
     </html>
   )
