@@ -28,17 +28,17 @@ export default function HTML(props) {
         {props.postBodyComponents}
 	  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="" />
 	  <Helmet>
-	  {`<script>
-	          var OneSignal = window.OneSignal || [];
-		  OneSignal.push(function() {
-		    OneSignal.init({
-		      appId: "ba2d8c27-2734-4ea0-a307-a0b139094493",
-		      notifyButton: {
-			enable: true,
-		      },
-		    });
-		  });
-		</script>`}
+		{`<script type="text/javascript" data-cfasync="false"> 
+		 var _foxpush = _foxpush || []; 
+		 _foxpush.push(['_setDomain', 'danielkapexhiucom']); 
+		 (function(){ 
+		 var foxscript = document.createElement('script'); 
+		 foxscript.src = '//cdn.foxpush.net/sdk/foxpush_SDK_min.js'; 
+		 foxscript.type = 'text/javascript'; 
+		 foxscript.async = 'true'; 
+		 var fox_s = document.getElementsByTagName('script')[0]; 
+		 fox_s.parentNode.insertBefore(foxscript, fox_s);})(); 
+		 </script>`}
 	    </Helmet>
       </body>
     </html>
