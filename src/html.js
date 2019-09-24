@@ -27,11 +27,11 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
 	   <Helmet>
-	      <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+	  {`<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>`}
 	   </Helmet>
 	    <Helmet>
-		<script>
-		  var OneSignal = window.OneSignal || [];
+	  {`<script>
+	          var OneSignal = window.OneSignal || [];
 		  OneSignal.push(function() {
 		    OneSignal.init({
 		      appId: "ba2d8c27-2734-4ea0-a307-a0b139094493",
@@ -40,7 +40,7 @@ export default function HTML(props) {
 		      },
 		    });
 		  });
-		</script>
+		</script>`}
 	    </Helmet>
       </body>
     </html>
