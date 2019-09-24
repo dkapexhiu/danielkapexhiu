@@ -27,7 +27,7 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
 	  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="" />
-	  </Helmet>
+	  <Helmet>
 	  {`<script>
 	          var OneSignal = window.OneSignal || [];
 		  OneSignal.push(function() {
