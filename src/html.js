@@ -26,8 +26,10 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+	   <Helmet>
+	      <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+	   </Helmet>
 	    <Helmet>
-		<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 		<script>
 		  var OneSignal = window.OneSignal || [];
 		  OneSignal.push(function() {
