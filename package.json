@@ -27,7 +27,6 @@
     "tailwindcss": "^0.7.4",
     "typeface-cantata-one": "^0.0.72",
     "typeface-open-sans": "^0.0.75",
-    "gatsby-plugin-subscribers": "^0.0.1"
   },
   "keywords": [
     "gatsby",
