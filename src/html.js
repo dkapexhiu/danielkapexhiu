@@ -28,17 +28,7 @@ export default function HTML(props) {
         {props.postBodyComponents}
 	<Helmet>
 	    <script>
-			{` 
-			 var _foxpush = _foxpush || []; 
-			 _foxpush.push(['_setDomain', 'danielkapexhiucom']); 
-			 (function(){ 
-			 var foxscript = document.createElement('script'); 
-			 foxscript.src = '//cdn.foxpush.net/sdk/foxpush_SDK_min.js'; 
-			 foxscript.type = 'text/javascript'; 
-			 foxscript.async = 'true'; 
-			 var fox_s = document.getElementsByTagName('script')[0]; 
-			 fox_s.parentNode.insertBefore(foxscript, fox_s);})(); 
-			 `}
+		{`var subscribersSiteId='3b59f502-b7d3-4a3e-91e2-a63c3b5e5ff1';</script><script type="text/javascript" src="https://cdn.subscribers.com/assets/subscribers.js"`}
 	    </script>
 	</Helmet>
       </body>
