@@ -45,6 +45,13 @@ module.exports = {
         ],
       },
     },
+    {
+    // Note: this plugin is coded to only work on production
+    resolve: `gatsby-plugin-subscribers`,
+      options: {
+         id: '3b59f502-b7d3-4a3e-91e2-a63c3b5e5ff1',
+      }
+    },
     /* Must be placed at the end */
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
