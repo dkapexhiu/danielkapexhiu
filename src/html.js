@@ -26,11 +26,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-	<Helmet>
-	    <script>
-		{`var subscribersSiteId='3b59f502-b7d3-4a3e-91e2-a63c3b5e5ff1';</script><script type="text/javascript" src="https://cdn.subscribers.com/assets/subscribers.js"`}
-	    </script>
-	</Helmet>
       </body>
     </html>
   )
