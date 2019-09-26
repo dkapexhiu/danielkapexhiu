@@ -50,7 +50,7 @@ module.exports = {
     resolve: `gatsby-plugin-offline`,
     options: {
       appendScript: require.resolve(`static/firebase-messaging-sw.js`),
-    },
+    }
     },
     'gatsby-plugin-netlify',
   ],
