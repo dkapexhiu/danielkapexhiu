@@ -26,8 +26,20 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-    	<script src="https://cdn.subscribers.com/assets/subscribers.js"></script>
-	<Helmet><script>{`var subscribersSiteId='3b59f502-b7d3-4a3e-91e2-a63c3b5e5ff1';`}</script></Helmet>
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+	<Helmet><script>
+	{`  
+	var OneSignal = window.OneSignal || [];
+	  OneSignal.push(function() {
+	    OneSignal.init({
+	      appId: "ba2d8c27-2734-4ea0-a307-a0b139094493",
+	      notifyButton: {
+		enable: true,
+	      },
+	    });
+	  });
+	`}
+	</script></Helmet>
       </body>
     </html>
   )
