@@ -49,7 +49,8 @@ module.exports = {
     resolve: `gatsby-plugin-offline`,
       options: {
         importScripts: [
-          `https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js`
+          `${__dirname}/static/OneSignalSDKUpdaterWorker.js`,
+          `${__dirname}/static/OneSignalSDKWorker.js`
         ]
       }
     },
