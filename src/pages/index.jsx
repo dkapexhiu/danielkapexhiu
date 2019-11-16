@@ -23,7 +23,7 @@ import faas from '../images/faas.webp';
 import hitweb from '../images/hitweb.webp';
 import agsh from '../images/agsh.webp';
 import sanity from '../images/is.webp';
-import oxford from '../images/oxford.webp';
+import suko from '../images/suko.webp';
 import prodmanagement from '../images/product-management.webp';
 import restaurant from '../images/restaurant.webp';
 import hoteligjuetise from '../images/hoteligjuetise.webp';
@@ -123,10 +123,10 @@ const Index = () => (
           >
           </ProjectCard>
           <ProjectCard
-            title="Oxford Rivoli"
-            link="https://www.oxfordrivoli.it/"
+            title="Suko Organic"
+            link="https://suko.al/"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-            img={oxford}
+            img={suko}
           >
           </ProjectCard>
           <ProjectCard
