@@ -23,10 +23,10 @@ import faas from '../images/faas.webp';
 import hitweb from '../images/hitweb.webp';
 import agsh from '../images/agsh.webp';
 import sanity from '../images/is.webp';
-import suko from '../images/suko.webp';
 import prodmanagement from '../images/product-management.webp';
 import restaurant from '../images/restaurant.webp';
 import hoteligjuetise from '../images/hoteligjuetise.webp';
+import suko from '../images/suko.webp';
 
 
 const ProjectsWrapper = styled.div`
