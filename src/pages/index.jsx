@@ -22,7 +22,7 @@ import me from '../images/me.webp';
 import faas from '../images/faas.webp';
 import hitweb from '../images/hitweb.webp';
 import agsh from '../images/agsh.webp';
-import sanity from '../images/is.webp';
+import albasolutions from '../images/albasolutions.webp';
 import prodmanagement from '../images/product-management.webp';
 import restaurant from '../images/restaurant.webp';
 import hoteligjuetise from '../images/hoteligjuetise.webp';
@@ -116,10 +116,10 @@ const Index = () => (
           >
           </ProjectCard>
           <ProjectCard
-            title="Sanity.io Integrated Systems"
-            link="https://sanity.danielkapexhiu.com"
+            title="AlbaSolutions"
+            link="http://albasolutions.fr/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-            img={sanity}
+            img={albasolutions}
           >
           </ProjectCard>
           <ProjectCard
