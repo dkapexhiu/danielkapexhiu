@@ -24,7 +24,7 @@ import hitweb from '../images/hitweb.webp';
 import agsh from '../images/agsh.webp';
 import albasolutions from '../images/albasolutions.webp';
 import prodmanagement from '../images/product-management.webp';
-import restaurant from '../images/restaurant.webp';
+import albrecovery from '../images/albrecovery.webp';
 import hoteligjuetise from '../images/hoteligjuetise.webp';
 import suko from '../images/suko.webp';
 
@@ -109,10 +109,10 @@ const Index = () => (
           >
           </ProjectCard>
           <ProjectCard
-            title="Restaurant Reviews"
-            link="https://restaurant.danielkapexhiu.com/"
+            title="AlbRecovery"
+            link="https://albrecovery.al/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-            img={restaurant}
+            img={albrecovery}
           >
           </ProjectCard>
           <ProjectCard
@@ -164,7 +164,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Daniel Kapexhiu
+          &copy; 2020 by Daniel Kapexhiu
         </Footer>
       </Contact>
     </Parallax>
