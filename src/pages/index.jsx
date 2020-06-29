@@ -160,7 +160,8 @@ const Index = () => (
             Say <a href="mailto:daniel.kapexhiu@gmail.com">Hi</a> or find me on other platforms:{' '}
             <a href="https://github.com/dkapexhiu/">GitHub</a> ,{' '}
             <a href="https://linkedin.com/in/danielkapexhiu">LinkedIn</a> &{' '}
-            <a href="https://blog.danielkapexhiu.com">Blog</a>
+            <a href="https://blog.danielkapexhiu.com">Blog</a> &{' '}
+            <a href="https://portfolio.danielkapexhiu.com">Portfolio</a>
           </ContactText>
         </Inner>
         <Footer>
