@@ -158,7 +158,7 @@ const Index = () => (
           <ProjectCard
             title="GSA"
             link="http://group-gsa.com/"
-            bg="linear-gradient(to right, #E0102F 0%, #D3E01E 100%)"
+            bg="linear-gradient(to right, #A0102A 0%, #B3E01B 100%)"
             img={gsa}
           >
           </ProjectCard>
