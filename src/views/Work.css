@@ -1,0 +1,100 @@
+.relative {
+    position: relative;
+}
+.pb-6 {
+    padding-bottom: 1.5rem;
+}
+.pt-6 {
+    padding-top: 1.5rem;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+.history:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    --bg-opacity: 1;
+    background-color: #cfd1d7;
+    left: 50%;
+    width: 2px;
+    transform: translateX(-1px);
+    content: "";
+}
+.history-entry:nth-child(odd) {
+    align-self: flex-end;
+    padding-left: 3rem;
+}
+.w-1\/2 {
+    width: 50%;
+}
+.relative {
+    position: relative;
+}
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.history-entry:first-child .dot-bg {
+    --bg-opacity: 1;
+    background-color: yellowgreen;
+}
+.history-entry:nth-child(odd) .dot-bg {
+    left: 0;
+    --transform-translate-x: -50%;
+}
+.transform {
+    --transform-translate-x: 0;
+    --transform-translate-y: 0;
+    --transform-rotate: 0;
+    --transform-skew-x: 0;
+    --transform-skew-y: 0;
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+}
+.w-14 {
+    width: 3.5rem;
+}
+.absolute {
+    position: absolute;
+}
+.h-14 {
+    height: 3.5rem;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.inline-flex {
+    display: inline-flex;
+}
+.rounded-full {
+    border-radius: 9999px;
+}
+.bg-line {
+    --bg-opacity: 1;
+    background-color: #cfd1d7;
+}
+.dot-bg {
+    --transform-translate-y: -50%;
+    top: 50%;
+}
+.history-entry:nth-child(2n) {
+    align-self: flex-start;
+    padding-right: 3rem;
+    text-align: right;
+}
+.history-entry:nth-child(2n) .dot-bg {
+    right: 0;
+    --transform-translate-x: 50%;
+}
+.subpixel-antialiased, .text-sm{
+    color:white;
+}

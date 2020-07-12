@@ -19,6 +19,8 @@ import Contact from '../views/Contact'
 import Work from '../views/Work'
 import Education from '../views/Education'
 
+import '../views/Work.css';
+
 // Images
 import me from '../images/me.webp';
 import faas from '../images/faas.webp';
@@ -80,7 +82,7 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={8}>
+    <Parallax pages={9}>
       
       <Hero offset={0}>
         <BigTitle>
@@ -183,32 +185,107 @@ const Index = () => (
 
       <Work offset={5}>
         <Title>Work</Title>
-        <WorkDesc>
-           * December 2019 - Present: Web Developer - Stema Digital <br />
-           * June 2019 - December 2019: Webmaster - Soft & Solution <br />
-           * June 2019 - June 2019: Web Developer - UniAdmissions <br />
-           * June 2018 - June 2019: Web Developer - HitWeb <br />
-           * February 2019 - September 2019: Digital Marketing Technician - MyFastWay <br />
-           * June 2016 - July 2016: Collaborator - Your Trainers Group
-        </WorkDesc>
+<div class="history flex flex-col relative pt-6 pb-6">
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">Stema Digital</h4>
+        <h5 class="text-sm font-normal mb-1">Web Developer</h5>
+        <span class="text-sm font-medium opacity-50">December 2019 - Present</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">Soft &amp; Solution</h4>
+        <h5 class="text-sm font-normal mb-1">Webmaster</h5>
+        <span class="text-sm font-medium opacity-50">June 2019 - December 2019</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">UniAdmissions</h4>
+        <h5 class="text-sm font-normal mb-1">Web Developer</h5>
+        <span class="text-sm font-medium opacity-50">June 2019 - June 2019</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">HitWeb</h4>
+        <h5 class="text-sm font-normal mb-1">Web Developer</h5>
+        <span class="text-sm font-medium opacity-50">June 2018 - June 2019</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">MyFastWay</h4>
+        <h5 class="text-sm font-normal mb-1">Digital Marketing Technician</h5>
+        <span class="text-sm font-medium opacity-50">February 2017 - September 2017</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">Your Trainers Group</h4>
+        <h5 class="text-sm font-normal mb-1">Collaborator</h5>
+        <span class="text-sm font-medium opacity-50">June 2016 - July 2016</span>
+    </div>
+</div>
       </Work>
 
-      <Education offset={6}>
+      <Education offset={7}>
         <Title>Education</Title>
-        <EducationDesc>
-           * 2017 - 2018: Mobile Web Specialist - Udacity <br />
-           * 2017 - 2018: Web Developer - OpenClassrooms <br />
-           * 2011 - 2017: Faculty of Engineering - University of Pisa <br />
-           * 2016 - 2016: Accademia dell'Eccellenza - Your Trainers Group <br />
-           * 2014 - 2014: HTML&CSS, JavaScript, jQuery, SQL, PHP - CodeAcademy <br />
-           * 2017 - 2017: Creating a Business Plan - LinkedIn Learning <br />
-           * 2017 - 2017: Learning Cloud Computing - LinkedIn Learning <br />
-           * 2017 - 2017: Photoshop CC for Web Designers - Udemy <br />
-           * 2016 - 2016: Corso di BLS-D - Cecchini Cuore Onlus <br />
-        </EducationDesc>
+<div class="history flex flex-col relative pt-6 pb-6">
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">Udacity</h4>
+        <h5 class="text-sm font-normal mb-1">Mobile Web Specialist</h5>
+        <span class="text-sm font-medium opacity-50">2017 - 2018</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">OpenClassrooms</h4>
+        <h5 class="text-sm font-normal mb-1">Web Developer</h5>
+        <span class="text-sm font-medium opacity-50">2017 - 2018</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">University of Pisa</h4>
+        <h5 class="text-sm font-normal mb-1">Engineering</h5>
+        <span class="text-sm font-medium opacity-50">2011 - 2017</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">Your Trainers Group</h4>
+        <h5 class="text-sm font-normal mb-1">Academy of Excellence</h5>
+        <span class="text-sm font-medium opacity-50">2016 - 2016</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">CodeAcademy</h4>
+        <h5 class="text-sm font-normal mb-1">HTML&amp;CSS, JavaScript, jQuery, SQL, PHP</h5>
+        <span class="text-sm font-medium opacity-50">2014 - 2014</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">LinkedIn Learning</h4>
+        <h5 class="text-sm font-normal mb-1">Creating a Business Plan</h5>
+        <span class="text-sm font-medium opacity-50">2017 - 2017</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">LinkedIn Learning</h4>
+        <h5 class="text-sm font-normal mb-1">Learning Cloud Computing</h5>
+        <span class="text-sm font-medium opacity-50">2017 - 2017</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">LinkedIn Learning</h4>
+        <h5 class="text-sm font-normal mb-1">Photoshop CC for Web Designers</h5>
+        <span class="text-sm font-medium opacity-50">2017 - 2017</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">Cecchini Cuore Onlus</h4>
+        <h5 class="text-sm font-normal mb-1">Corso di BLS-D</h5>
+        <span class="text-sm font-medium opacity-50">2016 - 2016</span>
+    </div>
+</div>
       </Education>
 
-      <Contact offset={7}>
+      <Contact offset={8}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
