@@ -33,6 +33,8 @@ import hoteligjuetise from '../images/hoteligjuetise.webp';
 import suko from '../images/suko.webp';
 import kozo from '../images/kozo.webp';
 import gsa from '../images/gsa.webp';
+import yummi from '../images/yummi.webp';
+import ica from '../images/ica.webp';
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -164,6 +166,20 @@ const Index = () => (
             img={gsa}
           >
           </ProjectCard>
+          <ProjectCard
+            title="Yummi Pizza"
+            link="http://yummiapp.netlify.app/"
+            bg="linear-gradient(to right, #E010C0 0%, #D3D01D 100%)"
+            img={yummi}
+          >
+          </ProjectCard>
+          <ProjectCard
+            title="ICA"
+            link="http://icarch.al/"
+            bg="linear-gradient(to right, #C010B0 0%, #E3D01C 100%)"
+            img={ica}
+          >
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
 
@@ -189,7 +205,7 @@ const Index = () => (
     <div class="history-entry relative w-1/2 py-4">
         <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
         <h4 class="subpixel-antialiased">Stema Digital</h4>
-        <h5 class="text-sm font-normal mb-1">Web Developer</h5>
+        <h5 class="text-sm font-normal mb-1">Mobile Web Specialist</h5>
         <span class="text-sm font-medium opacity-50">December 2019 - Present</span>
     </div>
     <div class="history-entry relative w-1/2 py-4">
