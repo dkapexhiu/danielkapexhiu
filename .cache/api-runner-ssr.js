@@ -1,20 +1,20 @@
 var plugins = [{
-      plugin: require('/home/daniel/Desktop/danielkapexhiu/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/danie/Desktop/danielkapexhiu/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/daniel/Desktop/danielkapexhiu/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('C:/Users/danie/Desktop/danielkapexhiu/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"pure":false},
+    },{
+      plugin: require('C:/Users/danie/Desktop/danielkapexhiu/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-136011478-1","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
+    },{
+      plugin: require('C:/Users/danie/Desktop/danielkapexhiu/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Daniel Kapexhiu - Web Developer","short_name":"Daniel","description":"Daniel Kapexhiu. Mobile Web Specialist and Web Developer creating useful mobile web designs","start_url":"/","background_color":"#a0d8f1","theme_color":"#a0d8f1","display":"standalone","icons":[{"src":"/favicons/android-icon-192x192.png","sizes":"192x192","type":"image/png"}],"legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":null},
+    },{
+      plugin: require('C:/Users/danie/Desktop/danielkapexhiu/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/daniel/Desktop/danielkapexhiu/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-136011478-1"},
-    },{
-      plugin: require('/home/daniel/Desktop/danielkapexhiu/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Daniel Kapexhiu - Web Developer","short_name":"Daniel","description":"Daniel Kapexhiu. Mobile Web Specialist and Web Developer creating useful mobile web designs","start_url":"/","background_color":"#a0d8f1","theme_color":"#a0d8f1","display":"standalone","icons":[{"src":"/favicons/android-icon-192x192.png","sizes":"192x192","type":"image/png"}]},
-    },{
-      plugin: require('/home/daniel/Desktop/danielkapexhiu/node_modules/gatsby-plugin-offline/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/home/daniel/Desktop/danielkapexhiu/node_modules/gatsby-plugin-google-adsense/gatsby-ssr'),
+      plugin: require('C:/Users/danie/Desktop/danielkapexhiu/node_modules/gatsby-plugin-google-adsense/gatsby-ssr'),
       options: {"plugins":[],"publisherId":"ca-pub-4767188844129685"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

@@ -84,7 +84,7 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={9}>
+    <Parallax pages={10}>
       
       <Hero offset={0}>
         <BigTitle>
@@ -93,7 +93,7 @@ const Index = () => (
         <Subtitle>I'm creating nice web experiences for the next generation of consumer-facing companies.</Subtitle>
       </Hero>
 
-      <Projects offset={1}>
+      <Projects offset={2}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
@@ -183,7 +183,7 @@ const Index = () => (
         </ProjectsWrapper>
       </Projects>
 
-      <About offset={4}>
+      <About offset={5}>
         <Title>Resume</Title>
         <AboutHero>
           <Avatar src={me} alt="Daniel Kapexhiu" />
@@ -199,14 +199,20 @@ const Index = () => (
         </AboutDesc>
       </About>
 
-      <Work offset={5}>
+      <Work offset={6}>
         <Title>Work</Title>
 <div class="history flex flex-col relative pt-6 pb-6">
     <div class="history-entry relative w-1/2 py-4">
         <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
+        <h4 class="subpixel-antialiased">UBA Bank</h4>
+        <h5 class="text-sm font-normal mb-1">Web Specialist</h5>
+        <span class="text-sm font-medium opacity-50">July 2021 - Present</span>
+    </div>
+    <div class="history-entry relative w-1/2 py-4">
+        <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
         <h4 class="subpixel-antialiased">Stema Digital</h4>
         <h5 class="text-sm font-normal mb-1">Mobile Web Specialist</h5>
-        <span class="text-sm font-medium opacity-50">December 2019 - Present</span>
+        <span class="text-sm font-medium opacity-50">December 2019 - June 2021</span>
     </div>
     <div class="history-entry relative w-1/2 py-4">
         <span class="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center"><span class="dot w-5 h-5 bg-back-light rounded-full"></span></span>
@@ -241,7 +247,7 @@ const Index = () => (
 </div>
       </Work>
 
-      <Education offset={7}>
+      <Education offset={8}>
         <Title>Education</Title>
 <div class="history flex flex-col relative pt-6 pb-6">
     <div class="history-entry relative w-1/2 py-4">
@@ -301,7 +307,7 @@ const Index = () => (
 </div>
       </Education>
 
-      <Contact offset={8}>
+      <Contact offset={9}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
@@ -313,7 +319,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2020 by Daniel Kapexhiu
+          &copy; 2022 by Daniel Kapexhiu
         </Footer>
       </Contact>
 
