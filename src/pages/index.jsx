@@ -195,7 +195,7 @@ const Index = () => (
           I have followed and done the course Crescere in Digitale for supporting the process of digitalization of italian factories. 
           I have been certified as a Digital Marketer from Ecellenze in Digitale course. 
           I have completed the Google Partners program and certified in Google Adwords. 
-          I have developed in HTML5, CSS3, Javascript, SQL, PHP, React.js, jQuery, Bootstrap, KnockoutJS, React Native, Vue.js, Laravel and Jigsaw.
+          I have developed in HTML5, CSS3, Javascript, SQL, PHP, React.js, jQuery, Bootstrap, KnockoutJS, React Native, Vue.js, Laravel, Jigsaw, Node.js, .NET Core, C#.
         </AboutDesc>
       </About>
 
